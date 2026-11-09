@@ -1,1 +1,29 @@
-
+{
+  "dataset": "chcp",
+  "epoch": 51,
+  "batch_size": 1,
+  "T": 2000,
+  "channel": 48,
+  "channel_mult": [
+    1,
+    2,
+    2
+  ],
+  "num_res_blocks": 2,
+  "dropout": 0.15,
+  "lr": 0.0001,
+  "beta_1": 0.0001,
+  "beta_T": 0.028,
+  "img_size_x": 140,
+  "img_size_y": 140,
+  "grad_clip": 1.0,
+  "ddim_timesteps": 50,
+  "U": 3,
+  "train_data_dir": "data/chcp/chcp_train_data_z_x2",
+  "test_file_z": "data/chcp/chcp_test_data_z_x2",
+  "data_dir": "data/chcp/low_data_chcp_x2",
+  "affine_dir": "data/chcp/affine_chcp",
+  "save_dir": "outputs/chcp/checkpoints",
+  "result_dir": "outputs/chcp/results",
+  "log_dir": "outputs/chcp/logs"
+}
